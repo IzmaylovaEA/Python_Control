@@ -1,5 +1,5 @@
 # Python_Control
-The tool for trimming reads by required mean quality
+The tool for reads trimming by required mean quality
 ## Arguments
 -i (--input) - Input FASTQ file
 
