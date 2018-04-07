@@ -1,6 +1,9 @@
 # Python_Control
 The tool for reads trimming by required mean quality
 ## Arguments
+
+-h (--help) - Show help message
+
 -i (--input) - Input FASTQ file
 
 -t (--threads) - Number of threads, default=1
@@ -17,4 +20,4 @@ The tool for reads trimming by required mean quality
 
   ## Usage example
   
-  `python Trimming.py -i /home/izmaylova/Downloads/task.fastq -o good.fastq -s 10 -e 5 -w 4 -q 20`
+`python Trimming.py -i /home/izmaylova/Downloads/test_classwork3.fastq -o /home/izmaylova/Downloads/test_classwork3_after_trimming.fastq -s 10 -e 5 -w 4 -q 30`
